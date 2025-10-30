@@ -1,5 +1,4 @@
 import streamlit as st
 
-st.title('🎈 App Name')
-
-st.write('Hello world!')
+number = st.slider("Select a number", 0, 100, value=50)
+st.write("Number is:", number)
